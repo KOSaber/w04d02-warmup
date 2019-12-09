@@ -26,6 +26,11 @@ Explanation: 'e' is the letter that was added.
 
 def find_difference(s , t)
 
+s.chars()
+t.chars()
+if t-s != 0 then puts t-s
+end
+
 end
 
 find_difference("abcd", "baedc") # e
