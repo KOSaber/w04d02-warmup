@@ -1,14 +1,11 @@
-def find_difference(s , t)
+# def find_difference(s , t)
    
-    puts  t.chars- s.chars
-    s= s.split("")
-    t= t.split("")
-    z = t-s
-    puts  z.to_s + " is the letter that was added."
+    # diff = t.split('') - s.split('')
+    # puts diff
 
-    end
+#     end
     
-    find_difference("abcd", "baedc") # e
+#     find_difference("abcd", "baedc") # e
 
     def missing_num(arr)
 
@@ -17,7 +14,7 @@ def find_difference(s , t)
     # lastn = newarr.last
     # p (fnum..lastn).to_a - newarr
     
-    p (0..arr.length).to_a - arr
+     p (0..arr.length).to_a - arr
 
     end
     
